@@ -1,7 +1,7 @@
 <h1 align="center"> The Last of Us - Page </h1>
 <p>Este projeto foi desenvolvido na <b>Semana do zero ao programador contratado</b> do canal <b>Dev em Dobro</b> no YouTube, o objetivo do projeto era desenvolver um site simples informativo, com um carrossel que muda as imagens do fundo</p>
 <p>Resolvi também incrementar o projeto, adicionando textos que mudam junto com as imagens</p>
-Para acessar o projeto upado no githubPages <a href='https://nicolasreu1.github.io/projeto-the-last-of-us/' target='_blank'>clique aqui</a>
+Para acessar o projeto upado no githubPages <a href='https://nicolasreu1.github.io/projeto-the-last-of-us/' target="_blank">clique aqui</a>
 
 <div align="center">
   <table>
