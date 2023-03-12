@@ -33,6 +33,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height='30' width='30'/>
 </div>
 
+## Updates
+
+- [x] Site base (Projeto Dev-em-Dobro)
+- [x] Modificar texto de acordo com os botões
+- [x] Fazer o README
+- [ ] Fazer passar para o próximo botão se não houver interação do usuário a cada 10 segundos
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
 
 ## 📝 O que aprendi?
 
