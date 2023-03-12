@@ -33,6 +33,8 @@ main:after{
     font-size: 24px;
     color: #ffffff;
     line-height: 30px;
+    display: none;
+    animation: mudarDescricao 0.7s;
 }
 
 .botoes-carrosel{
@@ -102,7 +104,20 @@ main:after{
     display: block;
 }
 
+.conteudo .informacoes .descricao.dativa{
+    display: block;
+}
+
 @keyframes mudarImagem{
+    from{
+        opacity: 0.85;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes mudarDescricao{
     from{
         opacity: 0.85;
     }

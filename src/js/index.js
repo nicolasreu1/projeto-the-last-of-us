@@ -3,7 +3,7 @@
     Extra - mudar para a próxima imagem após 10 segundos sem interação do usuário
 */
 // passo 1 - pegar elemento HTML dos botões
-const { botoesCarrosel, imagens } = pegarElementoHtml()
+const { botoesCarrosel, imagens, descricao } = pegarElementoHtml()
 // passo 2 - identificar clique no botão
 botoesCarrosel.forEach((botao, indice) => {
     botao.addEventListener('click', () => {
@@ -15,12 +15,26 @@ botoesCarrosel.forEach((botao, indice) => {
         esconderImagemAnterior()
         // passo 6 - mostrar imagem de fundo correspondente ao botão clicado
         mostrarImagemCorrespondente(indice)
+        // passo 7 - esconder texto anterior
+        esconderTextoAnterior()
+        // passo 8 - mostrar descricao correspondente ao botão clicado
+        mostrarTextoCorrespondente(indice)
     })
 })
+function mostrarTextoCorrespondente(indice) {
+    descricao[indice].classList.add('dativa')
+}
+
+function esconderTextoAnterior() {
+    const descricaoAtiva = document.querySelector('.dativa')
+    descricaoAtiva.classList.remove('dativa')
+}
+
 function pegarElementoHtml() {
     const botoesCarrosel = document.querySelectorAll('.botao')
     const imagens = document.querySelectorAll('.imagem')
-    return { botoesCarrosel, imagens }
+    const descricao = document.querySelectorAll('.descricao')
+    return { botoesCarrosel, imagens, descricao}
 }
 function mostrarImagemCorrespondente(indice) {
     imagens[indice].classList.add('ativa')
